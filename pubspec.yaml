@@ -1,0 +1,87 @@
+name: pawan_ai_assistant
+description: "Pawan AI Assistant - Your personal Jarvis-like voice assistant for Android with Ghost Rider theme, Google Gemini AI integration, offline mode, and 40+ features."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.16.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # Core Voice & Speech
+  speech_to_text: ^6.6.0
+  flutter_tts: ^3.8.5
+
+  # AI Integration
+  http: ^1.1.0
+
+  # Permissions
+  permission_handler: ^11.0.1
+
+  # State Management
+  provider: ^6.1.1
+
+  # UI & Animations
+  lottie: ^2.7.0
+  animated_text_kit: ^4.2.2
+  shimmer: ^3.0.0
+  google_fonts: ^6.1.0
+  flutter_animate: ^4.3.0
+
+  # Device Control & Integration
+  torch_controller: ^2.0.1
+  url_launcher: ^6.2.1
+  app_settings: ^5.1.1
+  contacts_service: ^0.6.3
+  telephony: ^0.2.0
+
+  # Audio Visualizer
+  audio_waveforms: ^1.0.4
+
+  # Wake Word Detection (Optional but recommended)
+  picovoice: ^3.0.0
+
+  # Voice Cloning Support (Optional)
+  path_provider: ^2.1.1
+  audioplayers: ^5.2.0
+
+  # Connectivity
+  connectivity_plus: ^5.0.2
+
+  # Sensors & Device Info
+  sensors_plus: ^4.0.2
+  battery_plus: ^5.0.2
+  screen_brightness: ^0.2.0
+  volume_controller: ^1.0.0
+
+  # Storage & Utils
+  shared_preferences: ^2.2.2
+  intl: ^0.18.1
+  flutter_clipboard_manager: ^0.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/audio/
+    - assets/models/
+
+  fonts:
+    - family: Orbitron
+      fonts:
+        - asset: assets/fonts/Orbitron-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Orbitron-Regular.ttf
+          weight: 400
