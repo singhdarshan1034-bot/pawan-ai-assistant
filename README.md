@@ -41,7 +41,7 @@ Your personal Jarvis-like voice assistant for Android with Ghost Rider theme, Go
 - Responsive design
 - Intuitive voice command interface
 
-### 🔒 Security & Privacy
+### 🔐 Security & Privacy
 - Local processing support
 - Permission handling
 - Secure API communication
@@ -172,7 +172,7 @@ Edit `lib/utils/theme.dart` to customize:
 - Press Enter to send
 - Long press microphone to start voice input
 
-## 🔧 Building for Release
+## 🔨 Building for Release
 
 ### Android APK
 ```bash
