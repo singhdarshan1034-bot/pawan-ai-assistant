@@ -69,9 +69,9 @@ Your personal Jarvis-like voice assistant for Android with Ghost Rider theme, Go
 
 3. **Add your API key**
    - Open `lib/services/ai_service.dart`
-   - Replace `YOUR_GOOGLE_GEMINI_API_KEY` with your actual key
+   - Replace `AQ.Ab8RN6Kn_D_v92OLQyG_2hJcApiYzYiwb_aTcCzSFzqat0VWng` with your actual key
    ```dart
-   static const String _apiKey = 'your_key_here';
+   static const String _apiKey = 'cc876d9c61a6b8f6c8585487efc80164';
    ```
 
 4. **Install dependencies**
@@ -110,7 +110,7 @@ lib/
 ### API Setup
 1. Get API key from Google Gemini
 2. Update `lib/services/ai_service.dart`
-3. Set your API key in the `_apiKey` constant
+3. Set your API key in the `AQ.Ab8RN6Kn_D_v92OLQyG_2hJcApiYzYiwb_aTcCzSFzqat0VWng` constant
 
 ### Permissions
 The app requires:
