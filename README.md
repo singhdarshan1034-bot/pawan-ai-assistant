@@ -71,7 +71,7 @@ Your personal Jarvis-like voice assistant for Android with Ghost Rider theme, Go
    - Open `lib/services/ai_service.dart`
    - Replace `AQ.Ab8RN6Kn_D_v92OLQyG_2hJcApiYzYiwb_aTcCzSFzqat0VWng` with your actual key
    ```dart
-   static const String _apiKey = 'cc876d9c61a6b8f6c8585487efc80164';
+   static const String _apiKey = 'AQ.Ab8RN6Kn_D_v92OLQyG_2hJcApiYzYiwb_aTcCzSFzqat0VWng';
    ```
 
 4. **Install dependencies**
